@@ -3,8 +3,8 @@ import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
-import LogoDark from 'assets/logo-dark.svg';
-import LogoWhite from 'assets/logo.svg';
+import LogoDark from 'assets/images/logo_lis_hitam.png';
+import LogoWhite from 'assets/images/logo_lis_putih.png';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
@@ -14,7 +14,7 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={className === 'sticky' ? LogoDark : LogoWhite} />
+          <Logo src={className === 'sticky' ? LogoDark : LogoWhite}  />
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
@@ -37,7 +37,7 @@ export default function Header({ className }) {
             variant="secondary"
             aria-label="Get Started"
           >
-            Get Started
+            Reservation
           </Button>
 
           <MobileDrawer />
@@ -83,14 +83,14 @@ const styles = {
       boxShadow: '0 1px 2px rgba(0, 0, 0, 0.06)',
       py: 3,
       'nev > a': {
-        color: 'text',
+        color: '#FFB609',
       },
       '.donate__btn': {
         borderColor: 'primary',
         color: 'primary',
         '&:hover': {
           boxShadow: 'rgba(31, 62, 118, 0.57) 0px 9px 20px -5px',
-          backgroundColor: 'primary',
+          backgroundColor: '#FFB609',
           color: 'white',
         },
       },
@@ -114,7 +114,7 @@ const styles = {
       cursor: 'pointer',
       lineHeight: '1.2',
       '&.active': {
-        color: 'secondary',
+        color: '#FFB609',
       },
     },
   },

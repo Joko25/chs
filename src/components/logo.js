@@ -11,11 +11,18 @@ export default function Logo({ src, ...rest }) {
         variant: 'links.logo',
         display: 'flex',
         cursor: 'pointer',
-        mr: 15,
+        mr: 15
       }}
       {...rest}
     >
-      <Image src={src} alt="Car Home Service logo" />
+      <Image src={src} alt="Car Home Service logo" sx={styles.Image} />
+      {/* carshomeservice.com */}
     </Link>
   );
 }
+
+const styles = {
+  Image: {
+    'height': '65px !important'
+  },
+};

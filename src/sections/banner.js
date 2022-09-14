@@ -7,6 +7,7 @@ import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 import BannerThumb from 'assets/banner-thumb.png';
+import BannerMechanic from 'assets/images/bg_banner.png'
 
 import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
@@ -44,16 +45,14 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Experience your ultimate mobile application
+            Pengalaman baru bersama <stong>carshomeservice.com</stong>
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+            Dapatkan pelayanan terbaik di manapun dan kapanpun dalam perawatan dan perbaikan kendaraan roda 4. Layanan Bergaransi dan profesional yang kami tawarkan.
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
+              Lihat Penawaran
             </Button>
             <>
               <ModalVideo
@@ -71,7 +70,7 @@ export default function Banner() {
               </Button>
             </>
           </Flex>
-          <Flex sx={styles.sponsorBox}>
+          {/* <Flex sx={styles.sponsorBox}>
             <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
@@ -80,11 +79,11 @@ export default function Banner() {
                 </Link>
               ))}
             </Box>
-          </Flex>
+          </Flex> */}
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerThumb} alt="banner" />
+          <Image src={BannerMechanic} alt="banner" />
         </Box>
       </Container>
     </section>
@@ -118,7 +117,7 @@ const styles = {
       justifyContent: 'center',
       ml: [0, null, null, '-110px', '-115px', '-150px', '-210px', '-270px'],
       mr: [0, null, null, '-145px', '-160px', '-180px', '-220px', '-290px'],
-      mt: [0, null, null, '40px', 4, 7, 0],
+      mt: [0, null, null, '40px', 4, 7, '-88px'],
       mb: [0, null, null, null, '-45px', '-70px', null, '-115px'],
       overflow: 'hidden',
       textAlign: 'right',

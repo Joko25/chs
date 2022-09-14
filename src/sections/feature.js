@@ -15,49 +15,49 @@ const data = [
     id: 1,
     imgSrc: Smart,
     altText: 'Smart',
-    title: 'Smart Features',
+    title: 'Mekanik',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'Service Advisor dan mekanik yang ramah serta berpengalaman siap melayani anda dengan berbagai keluhan dan masalah soal kendaraan',
   },
   {
     id: 2,
     imgSrc: Winner,
     altText: 'Performance',
-    title: 'Fast Performance',
+    title: 'Ruang Tunggu & Toilet',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'Selain memberikan ruang tunggu dan toilet, kami juga menyediakan minuman ringan seperti air mineral, teh dan kopi',
   },
   {
     id: 3,
     imgSrc: Cloud,
     altText: 'Content',
-    title: 'Unlimited Content',
+    title: 'Layanan Panggilan',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'Untuk memberikan pengalaman berbeda, kami hadir dengan layanan mobil service dengan waktu yang anda tentukan ',
   },
   {
     id: 4,
     imgSrc: Setting,
     altText: 'Customization',
-    title: 'Unlimited Customization',
+    title: 'Emergency 24 Jam',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'Untuk Memberikan rasa aman, kami hadir dengan layanan 24 Jam.',
   },
   {
     id: 5,
     imgSrc: Design,
     altText: 'Productivity',
-    title: 'Boost Productivity',
+    title: 'Peralatan',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'Selain peralatan standard bengkel, kami juda menyediakan alat press untuk melakukan pengepressan seperti pergantian Bearing, Bushing arm dll',
   },
   {
     id: 6,
     imgSrc: Chat,
     altText: 'Support',
-    title: 'Customer Support',
+    title: 'IT Testern (Scanner)',
     text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+      'Alat untuk mendiagnosa dan menemukan masalah kendaraan supaya terdeteksi dengan cepat, tepat dan sempurna',
   },
 ];
 
@@ -66,8 +66,8 @@ export default function Feature() {
     <section sx={{ variant: 'section.feature' }}>
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Fasilitas Kami"
+          title="Fasilitas terbaik kami berikan kepada anda."
         />
 
         <Grid sx={styles.grid}>

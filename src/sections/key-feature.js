@@ -11,24 +11,64 @@ const data = [
   {
     id: 1,
     imgSrc: Vector,
-    altText: 'Vector',
-    title: 'Vector Editing',
+    altText: 'perawatan berkala',
+    title: 'Perawatan Berkala',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    altText: 'tuneup',
+    title: 'Engine Tuneup',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: 'Quality',
-    title: 'Quality & Short-period',
+    altText: 'rapair',
+    title: 'General Repair',
+    text:
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+  },
+  {
+    id: 4,
+    imgSrc: Speed,
+    altText: 'kopling',
+    title: 'Kopling',
+    text:
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+  },
+  {
+    id: 5,
+    imgSrc: Speed,
+    altText: 'overhaul',
+    title: 'Over Haul',
+    text:
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+  },
+  {
+    id: 6,
+    imgSrc: Speed,
+    altText: 'scanner',
+    title: 'Scanner',
+    text:
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+  },
+  {
+    id: 7,
+    imgSrc: Speed,
+    altText: 'suspensi',
+    title: 'Suspensi & Rem',
+    text:
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+  },
+  {
+    id: 7,
+    imgSrc: Speed,
+    altText: 'rocksteer',
+    title: 'Install & Repair Rock Steer (Power Steering)',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -39,8 +79,8 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Layanan"
+          title="Dapatkan pelayanan terbaik kami"
         />
 
         <Grid sx={styles.grid}>

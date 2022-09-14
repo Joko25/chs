@@ -7,9 +7,9 @@ import PatternBG from 'assets/patternBG.png';
 
 const packages = [
   {
-    name: 'Free Plan',
+    name: 'Engine Component',
     description: 'For Small teams or office',
-    buttonText: 'Signup Now',
+    buttonText: 'Order Sekarang',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
@@ -40,39 +40,46 @@ const packages = [
     ],
   },
   {
-    header: 'Recommended',
-    name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: '$29.99/',
-    buttonText: 'Signup Now',
+    header: 'Best Deal',
+    name: 'Periodic Maintenance',
+    description: 'untuk kendaraan kecil',
+    priceWithUnit: 'Rp.150.000',
+    buttonText: 'Order Sekarang',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Ultimate access to all course, exercises and assessments',
+        text: 'PM Kelipatan 10.000KM',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
         text:
-          'Free access for all kind of exercise corrections with downloads.',
+          'PM Kelipatan 20.000KM',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Total assessment corrections with free download access system',
+        text: 'PM Kelipatan 40.000KM',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Unlimited download of courses on the mobile app contents',
+        text: 'Engine Tuneup',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Download and print courses and exercises in PDF',
+        text: 'Complete Engine Oil',
         isAvailable: true,
       },
     ],
+    
+  },{
+    header: 'Recomended',
+    name: 'Layanan Lain-nya',
+    description: 'Banyak hal yang dapat kami lakukan',
+    buttonText: 'Daftar Harga',
+    
   },
 ];
 export default function Package() {
@@ -80,8 +87,8 @@ export default function Package() {
     <section id="pricing" sx={styles.pricing}>
       <Container>
         <SectionHeader
-          title="Let’s see how it works"
-          slogan="Whats the function"
+          title="Harga yg tertampil adalah gambaran besarnya"
+          slogan="harga yg kami berikan"
           isWhite={true}
         />
         <Flex

@@ -33,12 +33,12 @@ export default function PriceCard({
               {description}
             </Text>
           </Box>
-          {header && (
+          {header && priceWithUnit && (
             <Text className="package__price" sx={styles.price}>
-              <span>Starting from</span>
+              <span>Mulai dari</span>
               <div className="price">
                 {priceWithUnit}
-                <sub>mo</sub>
+                <sub></sub>
               </div>
             </Text>
           )}

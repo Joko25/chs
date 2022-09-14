@@ -6,10 +6,11 @@ import Image from 'components/image';
 import CoreFeatureThumb from 'assets/coreFeature.png';
 import Briefcase from 'assets/core-feature/briefcase.svg';
 import Secure from 'assets/core-feature/secure.svg';
+import CoreFeatureProccess from 'assets/images/img_processing.jpg'
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: 'Tujuan kami',
+  title: 'Memberikan pengalaman terbaik dalam perawatan/perbaikan kendaraan anda',
   features: [
     {
       id: 1,
@@ -35,7 +36,7 @@ export default function CoreFeature() {
     <section sx={styles.coreFeature}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={CoreFeatureThumb} alt="Thumbnail" />
+          <Image src={CoreFeatureProccess} alt="Thumbnail" />
         </Box>
         <Box sx={styles.contentBox}>
           <Box sx={styles.headingTop}>
@@ -43,7 +44,7 @@ export default function CoreFeature() {
           </Box>
 
           <Grid gap="15px 0" columns={1} sx={styles.grid}>
-            {data.features.map((item) => (
+            {/* {data.features.map((item) => (
               <Box sx={styles.card} key={item.id}>
                 <Image src={item.imgSrc} alt={item.altText} sx={styles.img} />
 
@@ -52,7 +53,7 @@ export default function CoreFeature() {
                   <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
                 </Box>
               </Box>
-            ))}
+            ))} */}
           </Grid>
         </Box>
       </Container>

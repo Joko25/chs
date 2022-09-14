@@ -8,11 +8,11 @@ import PaymentThumb from 'assets/paymentThumb.png';
 import PaymentPattern from 'assets/payment-pattern.png';
 
 const data = {
-  subTitle: 'PAYMENT SECURITY',
-  title: 'Secure Payment Transaction System with #1 Ranking',
+  subTitle: 'Pembayaran',
+  title: 'Banyak metode pembayaran yang kami berikan',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
-  btnName: 'Learn More',
+    'Jangan kahwatir, untuk memberikan pelayanan terbaik kami memberikan banyak methode pembayaran',
+  btnName: 'pelajari selengkapnya',
   btnURL: '#',
 };
 

@@ -25,10 +25,11 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - Design & Developed by
+        {/* All right reserved - Design & Developed by
         <Link path="https://redq.io/" target="_blank">
           RedQ, Inc
-        </Link>
+        </Link> */}
+        All right reserved 2022 - carshomeservice.com
       </Text>
     </footer>
   );

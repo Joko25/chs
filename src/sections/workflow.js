@@ -39,8 +39,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Let’s see how it works"
+          slogan="cara pemesanan"
+          title="Dengan waktu yg telah disepakati, kami siap memberikan layanan terbaik"
           isWhite={true}
         />
 
