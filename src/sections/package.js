@@ -108,7 +108,7 @@ export default function Package() {
 
 const styles = {
   pricing: {
-    backgroundColor: 'primary',
+    backgroundColor: '#0C2439',
     backgroundImage: `url(${PatternBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',

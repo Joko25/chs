@@ -14,7 +14,7 @@ const data = [
     altText: 'perawatan berkala',
     title: 'Perawatan Berkala',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Tidak udah kawatir masalah jadwal kesibukan anda kami datang untuk mempermudah perawatan berkala anda dimanapun dan kapanpun',
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const data = [
     altText: 'tuneup',
     title: 'Engine Tuneup',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Kami akan meningkatkan Performa mobil anda  sesuai kebutuhan yang anda harapkan',
   },
   {
     id: 3,
@@ -30,23 +30,23 @@ const data = [
     altText: 'rapair',
     title: 'General Repair',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'di satu sisi kami menyediakan mekanik - mekanik yang handal jujur dan terpaca untuk menangani keluhanan masalah mobil anda',
   },
   {
     id: 4,
-    imgSrc: Speed,
+    imgSrc: Vector,
     altText: 'kopling',
     title: 'Kopling',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'pastikan kenyamanan mobil anda dengan penyetelan kopling secara benar',
   },
   {
     id: 5,
-    imgSrc: Speed,
+    imgSrc: Editing,
     altText: 'overhaul',
     title: 'Over Haul',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Tanpa Perlu ragu untuk mempercayakan perbaikan Overhaul kepada kami ditunjang mekanik yang kopetendan jujur membuat kepercayaan terjamin',
   },
   {
     id: 6,
@@ -54,23 +54,23 @@ const data = [
     altText: 'scanner',
     title: 'Scanner',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'kami memiliki alat yang dengan cepat menganalisa keadaan mobil anda secara akurat dan cepat ',
   },
   {
     id: 7,
-    imgSrc: Speed,
+    imgSrc: 'Vector',
     altText: 'suspensi',
     title: 'Suspensi & Rem',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'tidak lupa untuk memastikan suspensi dan kontrol rem dengan baik dan benar',
   },
   {
     id: 7,
-    imgSrc: Speed,
+    imgSrc: Editing,
     altText: 'rocksteer',
     title: 'Install & Repair Rock Steer (Power Steering)',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'dan perbaikan serta penggantian yang menjamin kepuasan anda',
   },
 ];
 

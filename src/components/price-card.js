@@ -12,6 +12,14 @@ export default function PriceCard({
     points,
   },
 }) {
+  const handleOrder = (name)=>{
+    console.log("#order", name)
+
+    const textMsg = `Hallo carshomeservice.com, bisa di infokan tentang paket ${name}?`
+    const phoneNo = '6281329448710';
+
+    window.open(`https://wa.me/?text=${textMsg}&phone=${phoneNo}`, '_blank')
+  }
   return (
     <Card className={header ? 'active' : null} sx={styles.pricingBox}>
       {header && <Text sx={styles.header}>{header}</Text>}
@@ -53,6 +61,7 @@ export default function PriceCard({
           <Button
             variant={header ? 'primary' : 'whiteButton'}
             aria-label={buttonText}
+            onClick={(e)=>handleOrder(name)}
           >
             {buttonText}
           </Button>

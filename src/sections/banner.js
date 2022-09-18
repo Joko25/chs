@@ -3,11 +3,12 @@ import { jsx } from 'theme-ui';
 import { Container, Flex, Box, Heading, Text, Image, Button } from 'theme-ui';
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
-import { Link } from 'components/link';
+// import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 import BannerThumb from 'assets/banner-thumb.png';
 import BannerMechanic from 'assets/images/bg_banner.png'
+import { Link } from 'react-scroll';
 
 import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
@@ -40,6 +41,7 @@ export default function Banner() {
     e.preventDefault();
     setVideoOpen(true);
   };
+  const path = 'pricing'
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
@@ -51,9 +53,18 @@ export default function Banner() {
             Dapatkan pelayanan terbaik di manapun dan kapanpun dalam perawatan dan perbaikan kendaraan roda 4. Layanan Bergaransi dan profesional yang kami tawarkan.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Lihat Penawaran
-            </Button>
+            <Link
+            to={path}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
+              <Button variant="whiteButton" to={'pricing'} aria-label="Get Started">
+                Lihat Penawaran
+              </Button>
+
+            </Link>
+            
             <>
               <ModalVideo
                 channel="youtube"
@@ -100,7 +111,7 @@ const styles = {
     borderBottomRightRadius: [100, 150, null, null, null, 250],
     pt: ['150px', null, null, null, null, null, '140px', '130px'],
     pb: ['100px', null, null, '110px', null, 10, '150px'],
-    backgroundColor: 'primary',
+    backgroundColor: '#0C2439',//primary FF920F
     container: {
       display: 'flex',
     },
@@ -111,6 +122,7 @@ const styles = {
       alignItems: 'flex-start',
       flexShrink: 0,
       pt: [0, null, null, null, null, null, 5, 7],
+      zIndex:'1'
     },
     imageBox: {
       display: ['none', null, null, 'block'],

@@ -5,52 +5,51 @@ import Rating from 'components/rating';
 import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
 
-import Avatar1 from 'assets/testimonial/avatar1.png';
-import Avatar2 from 'assets/testimonial/avatar2.png';
-import Avatar3 from 'assets/testimonial/avatar3.png';
-import Avatar4 from 'assets/testimonial/avatar4.png';
+import avatarWoman01 from 'assets/testimonial/avatar_women01.png';
+import avatarWoman02 from 'assets/testimonial/avatar_women02.png';
+import avatarMan01 from 'assets/testimonial/avatar_man01.png';
 
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    title: 'Pelayanan cepat & terjangkau',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 4,
+      'Makasih banyak mas. Pelayanan Cepat Harga Terjangkau',
+    avatar: avatarMan01,
+    name: 'Faishal N',
+    designation: '',
+    review: 5,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    title: 'Selalu Berlangganan',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+      'Pelayanannya memuaskan. Selalu berlangganan disini',
+    avatar: avatarWoman02,
+    name: 'Ilma K',
+    designation: '',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Memuaskan',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+      'MasyaAllah... Memuaskan',
+    avatar: avatarWoman01,
+    name: 'umi n',
+    designation: '',
     review: 5,
   },
-  {
-    id: 4,
-    title: 'Modern look & trending design',
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 4,
-  },
+  // {
+  //   id: 4,
+  //   title: 'Modern look & trending design',
+  //   description:
+  //     'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+  //   avatar: Avatar4,
+  //   name: 'Denny Hilguston',
+  //   designation: '@denny.hil',
+  //   review: 4,
+  // },
 ];
 
 const responsive = {
@@ -80,7 +79,7 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
       <Container>
-        <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
+        <SectionHeader slogan="Testimoni" title="Beberapa testimoni dari pelanggan kami" />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel

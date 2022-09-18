@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.png';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Klik Reservasi',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Dengan klik reservasi, kita bisa terhubung dan memulai kesepakatan',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Konsultasi Permasalahan',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Dengan konsultasi, kita bisa mempersiapkan langkah-langkah perbaikan ',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Kirim Lokasi',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Lokasi anda akan memudahkan tim kami untuk datang lebih cepat',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Perbaikan',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Kami akan melakukan perbaikan sesuai dengan permasalahan kendaraan anda',
   },
 ];
 
@@ -62,7 +62,7 @@ export default function WorkFlow() {
 
 const styles = {
   workflow: {
-    backgroundColor: 'primary',
+    backgroundColor: '#0C2439',
     backgroundImage: `url(${PatternBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',

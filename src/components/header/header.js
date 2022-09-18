@@ -8,8 +8,16 @@ import LogoWhite from 'assets/images/logo_lis_putih.png';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
+import { useRouter } from "next/router";
 
 export default function Header({ className }) {
+  const router = useRouter();
+  const phoneNo = '6281329448710';
+  const textMsg = 'Halo dengan carshomeservice.com?'
+  const handleReservation = () =>{
+
+    window.open(`https://wa.me/?text=${textMsg}&phone=${phoneNo}`, '_blank')
+  }
   return (
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
@@ -36,6 +44,7 @@ export default function Header({ className }) {
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
+            onClick={()=>handleReservation()}
           >
             Reservation
           </Button>
@@ -75,6 +84,14 @@ const styles = {
       flexShrink: 0,
       mr: [15, 20, null, null, 0],
       ml: ['auto', null, null, null, 0],
+      color: '#FFB609',
+      borderColor: '#FFB609',
+      '&:hover': {
+        boxShadow: 'rgba(31, 62, 118, 0.57) 0px 9px 20px -5px',
+        backgroundColor: '#FFB609',
+        color: 'white',
+        borderColor: '#FFB609',
+      },
     },
     '&.sticky': {
       position: 'fixed',
@@ -86,12 +103,13 @@ const styles = {
         color: '#FFB609',
       },
       '.donate__btn': {
-        borderColor: 'primary',
-        color: 'primary',
+        borderColor: '#FFB609',
+        color: '#FFB609',
         '&:hover': {
           boxShadow: 'rgba(31, 62, 118, 0.57) 0px 9px 20px -5px',
           backgroundColor: '#FFB609',
           color: 'white',
+          borderColor: '#FFB609',
         },
       },
     },

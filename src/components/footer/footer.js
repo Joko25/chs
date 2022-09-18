@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer sx={styles.footer}>
       <Container sx={styles.footer.container}>
-        <Box sx={styles.footer.footerTopArea}>
+        {/* <Box sx={styles.footer.footerTopArea}>
           {menuItems.map(({ header, items }, i) => (
             <Box sx={styles.footer.menus} key={i}>
               <Heading sx={styles.footer.heading}>{header}</Heading>
@@ -22,7 +22,7 @@ export default function Footer() {
               </nav>
             </Box>
           ))}
-        </Box>
+        </Box> */}
       </Container>
       <Text sx={styles.footer.copyright}>
         {/* All right reserved - Design & Developed by
