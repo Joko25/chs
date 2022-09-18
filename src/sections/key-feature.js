@@ -58,17 +58,26 @@ const data = [
   },
   {
     id: 7,
-    imgSrc: 'Vector',
+    imgSrc: Vector,
     altText: 'suspensi',
     title: 'Suspensi & Rem',
     text:
       'tidak lupa untuk memastikan suspensi dan kontrol rem dengan baik dan benar',
   },
   {
-    id: 7,
+    id: 8,
     imgSrc: Editing,
     altText: 'rocksteer',
     title: 'Install & Repair Rock Steer (Power Steering)',
+    text:
+      'dan perbaikan serta penggantian yang menjamin kepuasan anda',
+  },
+  
+  {
+    id: 9,
+    imgSrc: Speed,
+    altText: 'rocksteer',
+    title: 'Service AC Mobil',
     text:
       'dan perbaikan serta penggantian yang menjamin kepuasan anda',
   },

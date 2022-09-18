@@ -72,13 +72,13 @@ export default function Banner() {
                 videoId="ZNA9rmDsYVE"
                 onClose={() => setVideoOpen(false)}
               />
-              <Button
+              {/* <Button
                 variant="textButton"
                 aria-label="Watch Video"
                 onClick={handleClick}
               >
                 <FaPlayCircle /> Watch Video
-              </Button>
+              </Button> */}
             </>
           </Flex>
           {/* <Flex sx={styles.sponsorBox}>
@@ -122,7 +122,12 @@ const styles = {
       alignItems: 'flex-start',
       flexShrink: 0,
       pt: [0, null, null, null, null, null, 5, 7],
-      zIndex:'1'
+      zIndex:'1',
+      p:{
+        width:'90%',
+        lineHeight:'inherit'
+
+      }
     },
     imageBox: {
       display: ['none', null, null, 'block'],

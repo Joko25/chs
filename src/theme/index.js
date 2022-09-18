@@ -152,7 +152,7 @@ export default {
         '48px',
         '52px',
         '60px',
-        '66px',
+        '58px',
         '78px',
       ],
       lineHeight: 1.2,

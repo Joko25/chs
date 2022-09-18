@@ -25,13 +25,13 @@ export default function TextFeature({
         </Text>
       )}
 
-      {btnName && (
+      {/* {btnName && (
         <Link href={btnURL} variant="default">
           <Button variant="primary" aria-label={btnName}>
             {btnName}
           </Button>
         </Link>
-      )}
+      )} */}
     </Box>
   );
 }
