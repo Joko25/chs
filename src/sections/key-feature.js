@@ -30,7 +30,7 @@ const data = [
     altText: 'rapair',
     title: 'General Repair',
     text:
-      'di satu sisi kami menyediakan mekanik - mekanik yang handal jujur dan terpaca untuk menangani keluhanan masalah mobil anda',
+      'di satu sisi kami menyediakan mekanik - mekanik yang handal jujur dan terpercaya untuk menangani keluhanan masalah mobil anda',
   },
   {
     id: 4,
@@ -68,7 +68,7 @@ const data = [
     id: 8,
     imgSrc: Editing,
     altText: 'rocksteer',
-    title: 'Install & Repair Rock Steer (Power Steering)',
+    title: 'Install & Repair Reck Steer (Power Steering)',
     text:
       'dan perbaikan serta penggantian yang menjamin kepuasan anda',
   },

@@ -18,7 +18,7 @@ export default function PriceCard({
     const textMsg = `Hallo carshomeservice.com, bisa di infokan tentang paket ${name}?`
     const phoneNo = '6281329448710';
 
-    window.open(`https://wa.me/?text=${textMsg}&phone=${phoneNo}`, '_blank')
+    window.open(`https://wa.me/${phoneNo}?text=${textMsg}`, '_blank')
   }
   return (
     <Card className={header ? 'active' : null} sx={styles.pricingBox}>

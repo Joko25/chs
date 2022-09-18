@@ -16,7 +16,7 @@ export default function Header({ className }) {
   const textMsg = 'Halo dengan carshomeservice.com?'
   const handleReservation = () =>{
 
-    window.open(`https://wa.me/?text=${textMsg}&phone=${phoneNo}`, '_blank')
+    window.open(`https://wa.me/${phoneNo}?text=${textMsg}`, '_blank')
   }
   return (
     <DrawerProvider>
