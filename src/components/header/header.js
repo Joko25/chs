@@ -12,7 +12,7 @@ import { useRouter } from "next/router";
 
 export default function Header({ className }) {
   const router = useRouter();
-  const phoneNo = '6281329448710';
+  const phoneNo = '6281381864057';
   const textMsg = 'Halo dengan carshomeservice.com?'
   const handleReservation = () =>{
 

@@ -16,7 +16,7 @@ export default function PriceCard({
     console.log("#order", name)
 
     const textMsg = `Hallo carshomeservice.com, bisa di infokan tentang paket ${name}?`
-    const phoneNo = '6281329448710';
+    const phoneNo = '6281381864057';
 
     window.open(`https://wa.me/${phoneNo}?text=${textMsg}`, '_blank')
   }
